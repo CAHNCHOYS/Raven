@@ -1,0 +1,150 @@
+.search-form__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.search-form__input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.search-form__input input {
+  width: 100%;
+  font-size: 15px;
+  border: 1px solid #eee;
+  padding: 0px 20px 0px 20px;
+  min-height: 35px;
+}
+
+.search-form__input input:focus {
+  border: 2px solid lightblue;
+}
+
+.search-form__button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 0px 20px 0px 20px;
+  font-size: 16px;
+  min-height: 35px;
+  color: white;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  background-color: lightblue;
+}
+
+.message-form__form-objects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px 0px 17px 0px;
+}
+
+.message-form__form-objects > *:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.message-form__form-object textarea {
+  padding: 20px 40px 20px 40px;
+  height: auto;
+  max-height: 500px;
+  min-height: 213px;
+  resize: vertical;
+}
+
+.message-form__submit-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.simple-input {
+  padding: 0px 40px 0px 40px;
+  height: 53px;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+  width: 100%;
+  font-size: 1.1428571429em;
+  color: black;
+}
+
+.simple-input:focus {
+  border: 1px solid lightgreen;
+}
+
+.simple-input::-webkit-input-placeholder {
+  font-size: 1em;
+  text-align: justify;
+  color: #aeaeae;
+}
+
+.simple-input::-moz-placeholder {
+  font-size: 1em;
+  text-align: justify;
+  color: #aeaeae;
+}
+
+.simple-input:-ms-input-placeholder {
+  font-size: 1em;
+  text-align: justify;
+  color: #aeaeae;
+}
+
+.simple-input::-ms-input-placeholder {
+  font-size: 1em;
+  text-align: justify;
+  color: #aeaeae;
+}
+
+.simple-input::placeholder {
+  font-size: 1em;
+  text-align: justify;
+  color: #aeaeae;
+}
+
+@media (max-width: 991.98px) {
+  .message-form__form-object textarea {
+    padding: 15px 20px;
+    min-height: 153px;
+  }
+
+  .simple-input {
+    padding: 0px 20px 0px 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .search-form__input input {
+    padding: 0px 5px 0px 5px;
+  }
+
+  .search-form__button {
+    padding: 0px 10px 0px 10px;
+  }
+}
+
+@media (any-hover: hover) {
+  .search-form__button:hover {
+    background-color: rgb(23, 192, 248);
+  }
+}
