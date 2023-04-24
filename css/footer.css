@@ -41,6 +41,7 @@
   padding: 0px 0px 26.3888888889% 0px;
 }
 
+.footer__map > div,
 .footer__map iframe {
   position: absolute;
   width: 100%;
